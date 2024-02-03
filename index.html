@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-content">
+        <img
+          src="Assests/marmeto-image-1.jpg"
+          alt="image"
+          class="image"
+        />
+
+        <div class="img-filter">
+          <img src="Assests/marmeto-image-2.jpg" class="img" />
+          <img src="Assests/marmeto-image-3.jpg" class="img" />
+          <img src="Assests/marmeto-image-3.jpg" class="img" />
+          <img src="Assests/marmeto-image-2.jpg" class="img" />
+        </div>
+      </div>
+      <div class="right-content">
+        <h6 class="title">Marmeto</h6>
+        <p class="sub-title">Embrace Sideboard</p>
+        <hr />
+        <div class="price-container">
+          <div class="prices">
+            <p class="price"><span class="value">$12999.00</span></p>
+            <p class="offer-value"><del>$19999.00</del></p>
+          </div>
+          <p class="discount">35% off</p>
+        </div>
+        <hr />
+        <div class="color-container">
+          <p class="clr-title">choose a color</p>
+          <div class="colors-btn">
+            <button class="color color-one"></button>
+            <button class="color color-two"></button>
+            <button class="color color-three"></button>
+            <button class="color color-four"></button>
+          </div>
+        </div>
+        <div class="size-container">
+          <p class="size-title">choose a size</p>
+          <div class="sizes-btn">
+            <div class="sizes">
+              <input
+                type="radio"
+                name="size"
+                class="size-btn"
+                data-id="small"
+                checked
+              />
+              <label>small</label>
+            </div>
+            <div class="sizes">
+              <input
+                type="radio"
+                name="size"
+                class="size-btn"
+                data-id="medium"
+              />
+              <label>medium</label>
+            </div>
+            <div class="sizes">
+              <input
+                type="radio"
+                name="size"
+                class="size-btn"
+                data-id="large"
+              />
+              <label>Large</label>
+            </div>
+            <div class="sizes">
+              <input
+                type="radio"
+                name="size"
+                class="size-btn"
+                data-id="Extra-large"
+              />
+              <label>Extra-large</label>
+            </div>
+            <div class="sizes">
+              <input type="radio" name="size" class="size-btn" data-id="xxl" />
+              <label>xxl</label>
+            </div>
+          </div>
+        </div>
+        <div class="cart-container">
+         <div class="addition-box">
+            <button class="count-btn decrease">
+           <i class="fa-solid fa-minus"></i>
+            </button>
+              <span class="count">1</span>
+            <button class="count-btn increase">
+             <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="cart-division">
+          <button class="cart-btn">
+           <i class="fa-solid fa-bag-shopping"></i> Add to cart
+          </button>
+          <h3 class="cart-txt"></h3>
+        </div>
+       </div>
+        <p class="para">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

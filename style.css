@@ -1,0 +1,270 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, #873572, black);
+}
+
+a {
+  display: inline-block;
+  color: lightgrey;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.23);
+  color: white;
+  transform: scale(1.03);
+  text-decoration: none;
+}
+a:active {
+  transform: scale(0.98);
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #ffff;
+  padding-top: 20px;
+  margin:0;
+}
+.left-content {
+  width: 30vw;
+  margin-right: 50px;
+}
+.image {
+  width: 26vw;
+  height: 70%;
+  margin: 8px 22px;
+  text-align: center;
+
+}
+.img {
+  width: 75px;
+  height: 95px;
+  margin-top: 48px;
+  margin-left: 8px;
+}
+.img-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.right-content{
+  padding-top: 50px;
+}
+.title {
+    padding-top: 16px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color:rgb(114, 112, 112);
+  margin-bottom: 12px;
+}
+.sub-title {
+    margin-top:10px;
+  font-weight: 800;
+  font-size: 22px;
+}
+.price-container {
+  display: flex;
+}
+
+.value {
+  font-size: 36px;
+  color:rgb(114, 112, 112);
+  font-family: "Inter", sans-serif;
+}
+.offer-value {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color:rgb(114, 112, 112);
+  vertical-align: top;
+}
+.discount {
+  margin-left:50px;
+  color: red;
+  opacity: 0.5;
+  font-weight: lighter;
+  font-family: "Inter", sans-serif;
+}
+.clr-title {
+  font-size: 20px;
+  color:rgb(114, 112, 112);
+  font-weight: 700;
+}
+
+.color {
+  background-color: #ecdecc;
+  padding: 18px;
+  margin-right: 8px;
+  border: none;
+  transition: 0.2s;
+}
+
+.color:hover {
+
+  box-shadow: 0 0 0 4px #ffff, 0 0 0 8px #ecdecc;
+}
+.Color-one:hover
+{
+Box-shadow:0 0 0 4px #fff, 0 0 0 8px beige;
+}
+.color-two {
+  background-color: #bbd278;
+  padding: 18px;
+  border: none;
+  margin-left:12px;
+  margin-right:20px;
+}
+.color-two:hover {
+  box-shadow: 0 0 0 4px #ffff, 0 0 0 8px #bbd278;
+}
+.color-three {
+  background-color: #bbc1f8;
+  padding: 18px;
+  border: none;
+  margin-right:20px;
+}
+.color-three:hover {
+  box-shadow: 0 0 0 4px #ffff, 0 0 0 8px #bbc1f8;
+}
+.color-four {
+  background-color: #ffd3f8;
+  padding: 18px;
+  border: none;
+  margin-right:20px;
+}
+.color-four:hover {
+  box-shadow: 0 0 0 4px #ffff, 0 0 0 8px #ffd3f8;
+}
+
+.count-btn {
+  background-color: var(--primary-color);
+  border: none;
+  border: none;
+}
+.cart-container{
+    padding-top: 20px;
+}
+.cart-btn {
+  background-color: rgb(63, 63, 126);
+  color: white;
+  padding: 11px 88px;
+  margin: 11px;
+  border-radius: 22px;
+  border: none;
+}
+.cart-txt {
+  background-color: #d1ff98;
+  color: black;
+  border-radius: 22px;
+  padding: 11px;
+  font-size: 14px;
+  visibility: hidden;
+}
+.size-title {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.sizes-btn {
+  display: flex;
+  
+}
+
+.sizes {
+  background-color: #f2efe5;
+  opacity: 0.4;
+  padding: 8px 11px;
+  margin: 0 2px;
+  border-radius: 11px;
+}
+.sizes:active {
+  background-color: rgb(189, 210, 255);
+}
+.addition-box{
+  display:inline;
+  margin-right:20px;
+  background-color:#faf7f7;
+  padding:10px 60px;
+  border-radius: 8px;
+}
+.cart-division{
+  display:inline;
+}
+.para{
+    width: 70%;
+    color: #A3A3A3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left-content {
+    width: 100%;
+  }
+
+  .right-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cart-btn {
+    padding: 11px 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-content {
+    width: 100%;
+  }
+
+  .right-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cart-btn {
+    padding: 10px 10px;
+  }
+}
